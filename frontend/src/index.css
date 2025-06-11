@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&family=Outfit:wght@100..900&display=swap');
+
+@import "tailwindcss";
+@plugin "daisyui";
+
+
+body
+{
+  font-family: 'pooppins','sans-serif';
+}
+
+
+
+
+html.dark {
+  background-color: #121212;
+  color: white;
+}
+html {
+  background-color: white;
+  color: black;
+  
+}

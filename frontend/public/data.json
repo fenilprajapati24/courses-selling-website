@@ -1,0 +1,147 @@
+[
+  {
+    "id": 1,
+    "name": "Mern Stack",
+    "title": "lorem error nemo asperiores",
+
+    "price": 0,
+    "category": "Free",
+    "image": "/images/mern.png"
+  },
+  {
+    "id": 2,
+    "name": "Artificial intelligence",
+    "title": "lorem error nemo asperiores",
+
+    "price": 0,
+    "category": "Free",
+    "image": "/images/2.jpeg"
+  },
+  {
+    "id": 3,
+    "name": "Software engineering",
+    "title": "lorem error nemo asperiores",
+
+    "price": 0,
+    "category": "Free",
+    "image": "/images/3.jpeg"
+  },
+  {
+    "id": 4,
+    "name": "Data structure",
+    "title": "lorem error nemo asperiores",
+
+    "price": 0,
+    "category": "Free",
+    "image": "/images/4.jpeg"
+  },
+  {
+    "id": 5,
+    "name": "Computer architecture",
+    "title": "lorem error nemo asperiores",
+
+    "price": 0,
+    "category": "Free",
+    "image":"/images/5.jpeg"
+  },
+  {
+    "id": 6,
+    "name": "Algorithms",
+    "title": "lorem error nemo asperiores",
+
+    "price": 0,
+    "category": "Free",
+    "image": "/images/6.jpeg"
+  },
+  {
+    "id": 7,
+    "name": " Digital Marketing.",
+    "title": "lorem error nemo asperiores",
+
+    "price": 1990,
+    "category": "Paid",
+    "image": "/images/7.jpeg"
+  },
+  {
+    "id": 8,
+    "name": "frontend devlopment with react",
+    "title": "lorem error nemo asperiores sfsdlf",
+
+    "price": 1990,
+    "category": "Paid",
+    "image": "/images/8.jpeg"
+  },
+  {
+    "id": 9,
+    "name": "backend devlopment ",
+    "title": "lorem error nemo asperiores",
+
+    "price": 1990,
+    "category": "Paid",
+    "image": "/images/9.jpeg"
+  },
+  {
+    "id": 10,
+    "name": "RESTful API Design",
+    "title": "lorem error nemo asperiores",
+
+    "price": 1450,
+    "category": "Paid",
+    "image": "/images/10.jpeg"
+  },
+  {
+    "id": 11,
+    "name": "cloud devlopment",
+    "title": "lorem error nemo asperiores",
+
+    "price": 4550,
+    "category": "Paid",
+    "image": "/images/11.jpeg"
+  },
+  {
+    "id": 12,
+    "name": "UI/UX Design ",
+    "title": "lorem error nemo asperiores",
+
+    "price": 1350,
+    "category": "Paid",
+    "image":"/images/12.jpeg"
+  },
+  {
+    "id": 13,
+    "name": "Advanced javascript ",
+    "title": "lorem error nemo asperiores",
+
+    "price": 1110,
+    "category": "Paid",
+    "image": "/images/13.jpeg"
+  },
+  {
+    "id": 14,
+    "name": "Python for  machine learning ",
+    "title": "lorem error nemo asperiores",
+
+    "price": 1350,
+    "category": "Paid",
+    "image": "/images/14.jpeg"
+  },
+  {
+    "id": 15,
+    "name": "Python for data science ",
+    "title": "lorem error nemo asperiores",
+
+    "price": 1250,
+    "category": "Paid",
+    "image": "/images/15.jpeg"
+  },
+  {
+    "id": 16,
+    "name": "Web Development with Django ",
+    "title": "lorem error nemo asperiores",
+
+    "price": 1999,
+    "category": "Paid",
+    "image":"/images/16.jpeg"
+  }
+]
+
