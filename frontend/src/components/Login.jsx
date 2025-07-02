@@ -1,20 +1,20 @@
 import axios from 'axios';
 import React, { useRef } from 'react';
-import { Link, useNavigate } from 'react-router-dom'; // ⬅️ useNavigate
+import { Link, useNavigate } from 'react-router-dom';
 
 axios.defaults.withCredentials = true;
 
 const Login = () => {
   const passwordref = useRef();
   const emailref = useRef();
-  const navigate = useNavigate(); // ⬅️ Initialize navigate
+  const navigate = useNavigate(); 
 
   const handlesingin = async (e) => {
     e.preventDefault();
     const email = emailref.current.value.trim();
     const password = passwordref.current.value.trim();
 
-    // ✅ Validation
+    
     if (email === '') {
       alert('Email is required');
       return;
@@ -36,7 +36,7 @@ const Login = () => {
       localStorage.setItem('token', res.data.token);
       alert("Login successful");
 
-      navigate('/home'); // ⬅️ Redirect to home page
+      navigate('/home'); 
     } catch (err) {
       console.log(err);
       alert('Login failed');
