@@ -9,7 +9,7 @@ import Cart from './Cart.jsx';
 const Courses = () => {
   const [book, setbook] = useState([]);
   const [cartitems, setcartitems] = useState([]);
-  const [showCart, setShowCart] = useState(false); // toggle cart
+  const [showCart, setShowCart] = useState(false); 
 
   const addtocart = (item) => {
     setcartitems(prevItems => [...prevItems, item]);
@@ -20,7 +20,7 @@ const Courses = () => {
     try {
       const res = await axios.get('http://localhost:3019/booksrouter');
         const freeBooks = res.data.filter((item) => item.category === "Free");
-      setbook(freeBooks); // ✅ send all books directly
+      setbook(freeBooks); // send all books directly
     } catch (err) {
       console.log(err);
     }
