@@ -20,7 +20,7 @@ const Courses = () => {
     try {
       const res = await axios.get('http://localhost:3019/booksrouter');
         const freeBooks = res.data.filter((item) => item.category === "Free");
-      setbook(res.data); // ✅ send all books directly
+      setbook(res.data); //  send all books directly
     } catch (err) {
       console.log(err);
     }
