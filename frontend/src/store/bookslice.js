@@ -5,7 +5,7 @@ const bookslice = createSlice({
   initialState: [],
   reducers: {
    addtocart: (state, action) => {
-      console.log("Payload received in reducer:", action.payload);  // ✅ Log the payload
+      console.log("Payload received in reducer:", action.payload);  //  Log the payload
 
       // Optional: check if payload has required fields
       if (!action.payload || !action.payload.name || !action.payload.price) {
