@@ -16,7 +16,7 @@ const Card = ({ item, handleadd }) => {
           <div className="flex justify-between items-center mt-3">
             <div className="badge badge-outline">₹{item.price}</div>
             <button
-              onClick={() => handleadd(item)} // ✅ Pass item
+              onClick={() => handleadd(item)} 
               className="border px-3 py-1 rounded-xl hover:bg-pink-500 hover:text-white transition"
             >
               Add to Cart
