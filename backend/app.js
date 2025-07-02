@@ -29,8 +29,7 @@ app.use(cookieParser());
 app.use(express.json());                  
 
 
-// const expresssession=require("express-session");
-// const flash=require("connect-flash"); 
+
 
 // app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
@@ -52,10 +51,7 @@ mongoose.connect('mongodb://127.0.0.1:27017/learningweb', {
   console.error("MongoDB connection error:", err);
 });      
 
-// const razorpay=new Razorpay({
-//   key_id:process.env.RAZORPAY_KEY_ID,
-//   key_secret:process.env.RAZORPAY_KEY_SECRET
-// })
+
 
 
 app.post('/create-order',async (req,res)=>{
