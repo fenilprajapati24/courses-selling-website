@@ -20,7 +20,7 @@ const Courses = () => {
     try {
       const res = await axios.get('http://localhost:3019/booksrouter');
         const paidBooks = res.data.filter((item) => item.category === "Paid");
-      setbook(paidBooks); // ✅ send all books directly
+      setbook(paidBooks); // send all books directly
     } catch (err) {
       console.log(err);
     }
